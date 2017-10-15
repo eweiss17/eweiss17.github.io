@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection" />
+    <!--Override materialize styles-->
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!--=====================HEADER=========================-->
+    <header>
+        <!--=======================NAVBAR========================-->
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper blue darken-3">
+                    <a href="#!" class="brand-logo"><i class="material-icons">cloud</i></a>
+                    <a href="#" data-activates="mobile-list" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-list">
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <h1 class="center">Eric Weiss</h1>
+            <div class="row center">
+                <p>Aspiring Web Developer</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s4">
+                    <div class="center">
+                        <a href="#!"><i class="large material-icons">web</i></a>
+                        <h5 class="">Web Development</h5>
+                        <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="center">
+                        <a href="#!"><i class="large material-icons">content_paste</i></a>
+                        <h5 class="">Resourceful</h5>
+                        <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="center">
+                        <a href="#!"><i class="large material-icons">landscape</i></a>
+                        <h5 class="">Adaptful</h5>
+                        <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="grey lighten-1" id="projects">
+            <div class="center section">
+                <h2>Projects</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="carousel carousel-slider">
+                        <a class="carousel-item" href="#one!"><img src="images/WIK_WEB_PAGE.PNG"></a>
+                        <a class="carousel-item" href="#two!"><img src="images/TWITCH_STATUS.PNG"></a>
+                        <a class="carousel-item" href="#three!"><img src="images/QUOTE_GENERATOR.PNG"></a>
+                        <a class="carousel-item" href="#four!"><img src="images/WEATHER.PNG"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
