@@ -3,3 +3,23 @@
 
 }
 
+h3 {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+h1 {
+    font-family: 'Poller One', cursive;
+}
+
+h4 {
+    font-family: 'Ceviche One', cursive;
+}
+
+.small-text {
+    font-family: 'Marck Script', cursive;
+}
+
+.info {
+    padding-left: 2.5%;
+    font-size:0.9em;
+}
