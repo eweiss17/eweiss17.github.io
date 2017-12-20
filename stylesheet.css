@@ -1,15 +1,15 @@
 .profile-pic {
     border-radius: 60em;
+}
 
+h1 {
+    font-family: 'Poller One', cursive;
 }
 
 h3 {
     font-family: 'Hammersmith One', sans-serif;
 }
 
-h1 {
-    font-family: 'Poller One', cursive;
-}
 
 h4 {
     font-family: 'Ceviche One', cursive;
@@ -20,7 +20,7 @@ h4 {
 }
 
 .info {
-     padding: 1%;
+    padding: 1%;
     padding-left: 2.5%;
     font-size:0.9em;
 }
