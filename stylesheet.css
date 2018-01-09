@@ -24,3 +24,7 @@ h4 {
     padding-left: 2.5%;
     font-size:0.9em;
 }
+
+.images {
+    background-image: cover;
+}
