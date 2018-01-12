@@ -28,3 +28,7 @@ h4 {
 .images {
     background-image: cover;
 }
+
+.links a {
+    color:black;
+}
