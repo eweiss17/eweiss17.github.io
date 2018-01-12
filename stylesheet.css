@@ -32,3 +32,18 @@ h4 {
 .links a {
     color:black;
 }
+
+.no-edges {
+    border-radius: 0.3em;
+}
+
+header {
+    height: 100vh;
+}
+
+
+@media only screen and (max-width: 850px) {
+    header {
+        height: auto;
+    }
+}

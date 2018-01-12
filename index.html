@@ -54,6 +54,7 @@
                 <div class="section"></div>
                 <hr>
                 <div class="section"></div>
+                <div class="section"></div>
                 <div class="row">
                     <div class="col s12 m4">
                         <div class="center">
@@ -78,13 +79,12 @@
                     </div>
                 </div>
             </div>
-            <div class="section" id="about"></div>
         </div>
     </header>
 
     <!--=====================MAIN=========================-->
     <main>
-        <div class="blue darken-1">
+        <div class="blue darken-1" id="about">
             <div class="center section">
                 <h3>About</h3>
             </div>
@@ -92,7 +92,7 @@
                 <div class="row">
                     <ul class="collapsible popout" data-collapsible="accordion">
                         <li>
-                            <div class="collapsible-header"><i class="material-icons">school</i>Education</div>
+                            <div class="collapsible-header hoverable"><i class="material-icons">school</i>Education</div>
                             <div class="collapsible-body white">
                                 <ul>
                                     <li>University of Toledo</li>
@@ -104,8 +104,8 @@
                             </div>
                         </li>
                         <li>
-                            <div class="collapsible-header active"><i class="material-icons">code</i>Programming</div>
-                            <div class="collapsible-body white">
+                            <div class="collapsible-header hoverable active"><i class="material-icons">code</i>Programming</div>
+                            <div class="collapsible-body white hoverable">
                                 <ul>
                                     <li>HTML</li>
                                     <li class="info">Experience with PUG precompiler</li>
@@ -123,7 +123,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="collapsible-header"><i class="material-icons">work</i>Job Experience</div>
+                            <div class="collapsible-header hoverable"><i class="material-icons">work</i>Job Experience</div>
                             <div class="collapsible-body white">
                                 <ul>
                                     <li>Self projects</li>
@@ -137,12 +137,12 @@
                             </div>
                         </li>
                     </ul>
-                    <div class="section" id="projects"></div>
+                    <div class="section"></div>
                 </div>
             </div>
         </div>
         <div>
-            <div class="center section">
+            <div class="center section" id="projects">
                 <h3>Projects</h3>
             </div>
             <div class="container">
@@ -151,7 +151,7 @@
                         Showcase</h4>
                 </div>
                 <div class="row">
-                    <div class="carousel carousel-slider">
+                    <div class="carousel carousel-slider hoverable no-edges">
                         <a class="carousel-item" href="https://eweiss17.github.io/personal-website" target="_blank"><img src="images/NO_FRAME_PROFOLIO.PNG"></a>
                         <a class="carousel-item" href="https://eweiss17.github.io/wiki/" target="_blank"><img src="images/WIK_WEB_PAGE.PNG"></a>
                         <a class="carousel-item" href="https://eweiss17.github.io/twitch/" target="_blank"><img src="images/TWITCH_STATUS.PNG"></a>
@@ -166,7 +166,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col s6 offset-s3">
-                                <img class="responsive-img" src="images/MERJ_MIRROR_IRL.JPG">
+                                <img class="responsive-img no-edges" src="images/MERJ_MIRROR_IRL.JPG">
                             </div>
                         </div>
                         <div class="row">
@@ -177,7 +177,7 @@
                         <div class="col s12 m6">
                             <h4>Android</h4>
                             <div class="col s6">
-                                <img class="responsive-img" src="images/ANDROID_HAND.JPG">
+                                <img class="responsive-img no-edges" src="images/ANDROID_HAND.JPG">
                             </div>
                             <div class="col s6">
                                 <p>This was the grid selection screen for selecting what goes on your mirror. When you click on a spot on the grid, you are able to change which widget appears there. You are also given a selection within each widget. For example, you </p>
@@ -186,7 +186,7 @@
                         <div class="col s12 m6">
                             <h4>Mirror</h4>
                             <div class="col s4">
-                                <img class="responsive-img" src="images/MERJ_MIRROR_FAIR.jpg">
+                                <img class="responsive-img no-edges" src="images/MERJ_MIRROR_FAIR.jpg">
                             </div>
                             <div class="col m6 s6 offset-s2">
                                 <p>This was the final product. The data being displayed on the mirror is taken from a mySQL database which connects the app and mirror with data. The mirror is built on Node.JS making calls to various API's based on what you selected on the app. </p>
@@ -211,7 +211,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m6">
-                        <div class="card">
+                        <div class="card hoverable">
                             <div class="card-image">
                                 <img src="images/WEATHER_LARGE_2.png">
                             </div>
@@ -225,7 +225,7 @@
                         </div>
                     </div>
                     <div class="col s12 m6">
-                        <div class="card">
+                        <div class="card hoverable">
                             <div class="card-image">
                                 <img src="images/MESSAGE_BOARD_2.png">
                             </div>
@@ -241,7 +241,7 @@
                 </div>
                 <div class="row">
                     <div class="col s12 m6">
-                        <div class="card">
+                        <div class="card hoverable">
                             <div class="card-image">
                                 <img src="images/CALCULATOR.PNG">
                             </div>
@@ -255,7 +255,7 @@
                         </div>
                     </div>
                     <div class="col s12 m6">
-                        <div class="card">
+                        <div class="card hoverable">
                             <div class="card-image">
                                 <img src="images/QUOTE_GENERATOR_2.PNG">
                             </div>
@@ -275,8 +275,8 @@
     </main>
 
     <!--=====================FOOTER=========================-->
-    <footer class="page-footer blue darken-2" id="contact">
-        <div class="container">
+    <footer class="page-footer blue darken-2">
+        <div class="container" id="contact">
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">Contact</h5>
