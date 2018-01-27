@@ -8,9 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Ceviche+One|Hammersmith+One|Marck+Script|Poller+One" rel="stylesheet">
-    <!--Override materialize styles-->
+    <!--skillset plugin-->
+    <link type="text/css" rel="stylesheet" href="skillset/css/fontello.css">
+    <link type="text/css" rel="stylesheet" href="skillset/js/skillset.css">
+    <!--tooltip plugin-->
+    <link type="text/css" rel="stylesheet" href="node_modules/jquery-powertip/dist/css/jquery.powertip.min.css">
+    <!--Override any styles-->
     <link type="text/css" rel="stylesheet" href="stylesheet.css" />
-
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -21,9 +25,9 @@
     <header>
         <!--=======================NAVBAR========================-->
         <div class="navbar-fixed">
-            <nav>
-                <div class="nav-wrapper blue darken-3">
-                    <!--                    <a href="#!" class="brand-logo"><i class="material-icons">cloud</i></a>-->
+            <nav class="blue darken-3">
+                <div class="nav-wrapper container">
+
                     <a href="#" data-activates="mobile-list" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="hide-on-med-and-down">
                         <li><a href="#">Portfolio</a></li>
@@ -45,7 +49,7 @@
                 <h1 class="center">Eric Weiss</h1>
                 <div class="row">
                     <div class="center">
-                        <img src="images/SEMI_PROF_2.png" class="profile-pic center">
+                        <img src="images/SEMI_PROF_2.png" class="circle center">
                     </div>
                 </div>
                 <p class="center small-text">Aspiring Web Developer</p>
@@ -85,9 +89,7 @@
     <!--=====================MAIN=========================-->
     <main>
         <div class="blue darken-1" id="about">
-            <div class="center section">
-                <h3>About</h3>
-            </div>
+            <div class="section"></div>
             <div class="container">
                 <div class="row">
                     <ul class="collapsible popout" data-collapsible="accordion">
@@ -95,42 +97,25 @@
                             <div class="collapsible-header hoverable"><i class="material-icons">school</i>Education</div>
                             <div class="collapsible-body white">
                                 <ul>
-                                    <li>University of Toledo</li>
-                                    <li class="info">Bachelors in Computer Science and Engineering</li>
-                                    <li class="info">Four-and-a-half year program </li>
-                                    <li class="info">Three required co-op and one optional co-op completed</li>
-                                    <li class="info">Graduated with 3.23 GPA</li>
+                                    <img class="responsive-img" src="images/UT.png">
+                                    <li>Bachelors in Computer Science and Engineering</li>
+                                    <li>Four completed co-ops</li>
+                                    <li>Graduated with 3.23 GPA</li>
                                 </ul>
                             </div>
                         </li>
                         <li>
                             <div class="collapsible-header hoverable active"><i class="material-icons">code</i>Programming</div>
                             <div class="collapsible-body white hoverable">
-                                <ul>
-                                    <li>HTML</li>
-                                    <li class="info">Experience with PUG precompiler</li>
-                                    <li>CSS</li>
-                                    <li class="info">Experience with Sass and SCSS syntax</li>
-                                    <li>Javascript</li>
-                                    <li class="info">Familar with React JS and Node JS</li>
-                                    <li>C++</li>
-                                    <li class="info">Worked in C++ to create many projects over the years</li>
-                                    <li>Java</li>
-                                    <li class="info">Worked in SeLion for automated testing. SeLion is an extension of Selenium</li>
-                                    <li>Android Studio</li>
-                                    <li class="info">Main contributer to Senior Design project involving this framework</li>
-                                </ul>
+                                <div id="skillset"></div>
                             </div>
                         </li>
                         <li>
                             <div class="collapsible-header hoverable"><i class="material-icons">work</i>Job Experience</div>
                             <div class="collapsible-body white">
                                 <ul>
-                                    <li>Self projects</li>
-                                    <li class="info">See below</li>
-                                    <li>Four co-ops pertaining in field experience</li>
                                     <li class="info">Integrated Marketing Technologies - Web Developer Co-op</li>
-                                    <li class="info">Tronair - Marketing Co-op</li>
+                                    <li class="info">Tronair - Engineering Co-op</li>
                                     <li class="info">Wellopp - Web Developer Co-op</li>
                                     <li class="info">Software Answers - QA Co-op</li>
                                 </ul>
@@ -141,15 +126,11 @@
                 </div>
             </div>
         </div>
-        <div>
-            <div class="center section" id="projects">
-                <h3>Projects</h3>
+        <div id="projects">
+            <div class="section">
+                <h4 class="center">Showcase</h4>
             </div>
             <div class="container">
-                <div class="row">
-                    <h4 class="center">
-                        Showcase</h4>
-                </div>
                 <div class="row">
                     <div class="carousel carousel-slider hoverable no-edges">
                         <a class="carousel-item" href="https://eweiss17.github.io/personal-website" target="_blank"><img src="images/NO_FRAME_PROFOLIO.PNG"></a>
@@ -160,8 +141,10 @@
                 <div class="section"></div>
             </div>
 
-            <div class="blue darken-1 center section">
-                <h4>Senior Design Project</h4>
+            <div class="blue darken-1 center">
+                <div class="section">
+                    <h4>Senior Design Project</h4>
+                </div>
                 <div class="container">
                     <div class="container">
                         <div class="row">
@@ -195,12 +178,16 @@
                     </div>
                     <div class="section"></div>
                     <div class="container">
+                        <!--
                         <div class="row center-align">
                             <h5>GitHub Links</h5>
                         </div>
+-->
+                        <!--
                         <div class="row center-align links">
                             <a href="https://github.com/Flarwalker/MERJMirrorPi" target="_blank">Mirror</a> <a href="https://github.com/eweiss17/MERJMirror" target="_blank">Android App</a> <a href="https://github.com/Flarwalker/MERJMirrorWeb" target="_blank">Website</a>
                         </div>
+-->
                     </div>
                 </div>
             </div>
@@ -300,9 +287,9 @@
                 </div>
             </div>
         </div>
-        <div class="footer-copyright  blue darken-3">
+        <div class="footer-copyright blue darken-3">
             <div class="container">
-                Created with the <a class="grey-text text-lighten-1" href="http://materializecss.com/" target="_blank">Materialize </a> Framework
+                Created with the <a href="http://materializecss.com/" target="_blank">Materialize </a> Framework
             </div>
         </div>
     </footer>
@@ -310,6 +297,8 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="skillset/js/skillset.js"></script>
+    <script type="text/javascript" src="node_modules/jquery-powertip/dist/jquery.powertip.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
 </body>
 

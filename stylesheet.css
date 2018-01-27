@@ -1,7 +1,4 @@
-.profile-pic {
-    border-radius: 60em;
-}
-
+/*
 h1 {
     font-family: 'Poller One', cursive;
 }
@@ -14,6 +11,7 @@ h3 {
 h4 {
     font-family: 'Ceviche One', cursive;
 }
+*/
 
 .small-text {
     font-family: 'Marck Script', cursive;
@@ -34,7 +32,7 @@ h4 {
 }
 
 .no-edges {
-    border-radius: 0.3em;
+    border-radius: 0.35em;
 }
 
 /*
