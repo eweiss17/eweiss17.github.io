@@ -105,7 +105,7 @@
             setTimeout(function () {
                 $('#list-info').css({
                     'opacity': 0.9,
-                    'bottom': 50
+                    'bottom': 70
                 });
             }, 100);
         }, function () {

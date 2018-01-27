@@ -176,7 +176,6 @@
 .skillset-list li #list-info {
     position: absolute;
     bottom: 90px;
-    right: 0px;
     z-index: 100;
     opacity: 0;
     width: 200px;
