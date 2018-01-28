@@ -89,6 +89,20 @@
 
             }
 
+            $('.icon-info-circled').hover(function () {
+                $(this).css('color', '#222222');
+                $(this).parent().parent().append('<div id="list-info" ><p>' + $(this).data('info') + '</p></div>');
+                setTimeout(function () {
+                    $('#list-info').css({
+                        'opacity': 0.9,
+                        'bottom': 70
+                    });
+                }, 100);
+            }, function () {
+                $(this).css('color', '#666666');
+                $('#list-info').remove();
+            });
+
         }
 
         $(document).scroll(function () {
@@ -98,21 +112,6 @@
             }
 
         });
-
-        $('.icon-info-circled').hover(function () {
-            $(this).css('color', '#222222');
-            $(this).parent().parent().append('<div id="list-info" ><p>' + $(this).data('info') + '</p></div>');
-            setTimeout(function () {
-                $('#list-info').css({
-                    'opacity': 0.9,
-                    'bottom': 70
-                });
-            }, 100);
-        }, function () {
-            $(this).css('color', '#666666');
-            $('#list-info').remove();
-        });
-
     };
 
 }(jQuery));
