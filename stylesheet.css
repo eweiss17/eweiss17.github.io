@@ -1,49 +1,32 @@
-/*
-h1 {
-    font-family: 'Poller One', cursive;
-}
-
-h3 {
-    font-family: 'Hammersmith One', sans-serif;
-}
-
-
-h4 {
-    font-family: 'Ceviche One', cursive;
-}
-*/
-
 .small-text {
     font-family: 'Marck Script', cursive;
 }
 
+.title {
+    padding: 0.5%;
+}
+
 .info {
-    padding: 1%;
     padding-left: 2.5%;
     font-size:0.9em;
 }
 
-.images {
-    background-image: cover;
+.fixed-tab {
+    height:auto;
+    display flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.links a {
-    color:black;
+.indicator {
+    background-color: mediumaquamarine !important;
+}
+
+.tab-image {
+    width: auto;
+    height: 300px;
 }
 
 .no-edges {
     border-radius: 0.35em;
 }
-
-/*
-header {
-    height: 100vh;
-}
-
-
-@media only screen and (max-width: 850px) {
-    header {
-        height: auto;
-    }
-}
-*/
