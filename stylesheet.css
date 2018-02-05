@@ -30,3 +30,21 @@
 .no-edges {
     border-radius: 0.35em;
 }
+
+#about {
+   position: relative;
+   border-top: 52px solid transparent;
+   margin: -30px 0 0;
+   -webkit-background-clip: padding-box;
+   -moz-background-clip: padding;
+   background-clip: padding-box;
+}
+
+#about:before {
+   content: "";
+   position: absolute;
+   top: -2px;
+   left: 0;
+   right: 0;
+   border-top: 2px solid #ccc;
+}
