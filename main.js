@@ -1,7 +1,7 @@
   var object = [
       {
           'headline': 'HTML',
-          'value': 9,
+          'value': 8,
           'length': 10,
           'description': 'Extremely proficient at base HTML. Some experience with the PUG precompiler.'
         },
@@ -18,7 +18,7 @@
           'description': 'Intermediate to advanced knowledge of Javascript and JQuery.'
         },
       {
-            'headline': 'Java',
+          'headline': 'Java',
           'value': 6,
           'length': 10,
           'description': 'Intermediate experience. Have done work in SeLion, an extension of Selenium automated testing.'
@@ -30,8 +30,14 @@
           'description': 'Intermediate experience. Peer mentor for beginner class in college.'
         },
       {
-          'headline': 'PHP',
+          'headline': 'WordPress',
           'value': 4,
+          'length': 10,
+          'description': 'Intermediate experience. Several projects completed in WordPress.'
+        },
+      {
+          'headline': 'PHP',
+          'value': 3,
           'length': 10,
           'description': 'Basic knowledge. Have used to access mySQL database in senior design project.'
       },
