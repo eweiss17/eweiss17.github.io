@@ -28,7 +28,11 @@
 }
 
 .no-edges {
-    border-radius: 0.35em;
+    border-radius: 0.5em;
+}
+
+.no-bottom-edges {
+    border-radius: 0 0 0.5em 0.5em;
 }
 
 #about {
