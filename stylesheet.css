@@ -48,3 +48,7 @@
    right: 0;
    border-top: 2px solid #ccc;
 }
+
+h1, h4 {
+   font-family: cursive;
+}
