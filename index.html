@@ -28,12 +28,13 @@
         <div class="navbar-fixed">
             <nav class="blue darken-3">
                 <div class="nav-wrapper container">
-
                     <a href="#" data-activates="mobile-list" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="hide-on-med-and-down">
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#showcase">Featured Showcase</a></li>
+                        <li><a href="#senior-design">Senior Design Project</a></li>
+                        <li><a href="#additional-projects">Additional Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -42,7 +43,9 @@
         <ul class="side-nav" id="mobile-list">
             <li><a href="#">Portfolio</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#showcase">Featured Showcase</a></li>
+            <li><a href="#senior-design">Senior Design Project</a></li>
+            <li><a href="#additional-projects">Additional Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div id="start-page">
@@ -64,21 +67,21 @@
                     <div class="col s12 m4">
                         <div class="center">
                             <a><i class="large material-icons">web</i></a>
-                            <h5>Web Development</h5>
+                            <h5><strong>Web Development</strong></h5>
                             <p>I have been interested in web development ever since high school when I took a web design course. Seeing a beautifully constructed web site is always a feat to behold and I hope to be the one to awe people in the future. </p>
                         </div>
                     </div>
                     <div class="col s12 m4">
                         <div class="center">
                             <a><i class="large material-icons">content_paste</i></a>
-                            <h5>Resourceful</h5>
+                            <h5><strong>Resourceful</strong></h5>
                             <p>Am always looking to improve myself and my skills in coding. I feel the skill of truly knowing a subject is the feat to teach it to someone with no knowledge and them being able to express clarity from your teachings.</p>
                         </div>
                     </div>
                     <div class="col s12 m4">
                         <div class="center">
                             <a><i class="large material-icons">landscape</i></a>
-                            <h5>Adaptful</h5>
+                            <h5><strong>Adaptful</strong></h5>
                             <p>Willingness to learn new things and adapt to new surroundings. Am willing to acknowledge when I am having trouble or not understanding something. Seek knowledge to better my understanding of the world.</p>
                         </div>
                     </div>
@@ -91,7 +94,7 @@
     <main>
         <div class="blue darken-1" id="about">
             <div class="section center">
-                <h4>About Me</h4>
+                <h3>About Me</h3>
             </div>
             <div class="container">
                 <div class="row">
@@ -108,7 +111,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="collapsible-header hoverable active"><i class="material-icons">code</i>Programming</div>
+                            <div class="collapsible-header hoverable active"><i class="material-icons">code</i>Programming Experience</div>
                             <div class="collapsible-body white hoverable">
                                 <div id="skillset"></div>
                             </div>
@@ -137,13 +140,13 @@
                             </div>
                         </li>
                     </ul>
-                    <div class="section"></div>
                 </div>
+                <div class="section"></div>
             </div>
         </div>
-        <div id="projects">
-            <div class="section">
-                <h4 class="center">Showcase</h4>
+        <div id="showcase">
+            <div class="section center">
+                <h3>Featured Showcase</h3>
             </div>
             <div class="container">
                 <div class="row">
@@ -156,54 +159,55 @@
                 </div>
                 <div class="section"></div>
             </div>
+        </div>
 
-            <div class="blue darken-1 center">
-                <div class="section">
-                    <h4>Senior Design Project</h4>
-                </div>
-                <div class="container">
-                    <div class="row no-edges hoverable blue darken-4">
-                        <div class="col s12">
-                            <ul class="tabs blue darken-4">
-                                <li class="tab col s4"><a class="white-text" href="#firsttab">Overview</a></li>
-                                <li class="tab col s4"><a class="white-text" href="#secondtab">Android App</a></li>
-                                <li class="tab col s4"><a class="white-text" href="#thirdtab">Mirror</a></li>
-                            </ul>
-                        </div>
-                        <div id="firsttab" class="col s12 white">
-                            <div class="section"></div>
-                            <div class="container fixed-tab">
-                                <img class="responsive-img no-edges" src="images/MERJ_MIRROR_IRL.JPG">
-                                <p>My Senior Design project was quite an ambitious one requiring knowledge in multiple software areas. Luckily I had three team members with different skills to help offset this load. The goal of our project was to create a smart mirror, in which you are able to select which widgets you want displayed on the mirror, as well as in which position. We decided to make an android app for easy selection of what appears on the mirror. A website was also added for those without Android phones.</p>
-                            </div>
-                            <div class="section"></div>
-                        </div>
-
-                        <div id="secondtab" class="col s12 white">
-                            <div class="section"></div>
-                            <div class="container fixed-tab">
-                                <img class="responsive-img no-edges" src="images/ANDROID_HAND_RESIZED.jpg">
-                                <p>This was the grid selection screen for selecting what goes on your mirror. When you click on a spot on the grid, you are able to change which widget appears there. You are also given a selection within each widget. For example, you </p><br>
-                                <a class="blue-text text-darken-4 links" href="https://github.com/eweiss17/MERJMirror" target="_blank">LINK TO GITHUB</a>
-                            </div>
-                            <div class="section"></div>
-                        </div>
-                        <div id="thirdtab" class="col s12 white">
-                            <div class="section"></div>
-                            <div class="container fixed-tab">
-                                <img class="responsive-img no-edges" src="images/MERJ_MIRROR_FAIR_RESIZED.jpg">
-                                <p>This was the final product. The data being displayed on the mirror is taken from a mySQL database which connects the app and mirror with data. The mirror is built on Node.JS making calls to various API's based on what you selected on the app. </p><br>
-                                <a class="blue-text text-darken-4 links" href="https://github.com/Flarwalker/MERJMirrorPi" target="_blank">LINK TO GITHUB</a>
-                            </div>
-                            <div class="section"></div>
-                        </div>
-                    </div>
-                    <div class="section"></div>
-                </div>
+        <div class="blue darken-1 center" id="senior-design">
+            <div class="section">
+                <h3>Senior Design Project</h3>
             </div>
+            <div class="container">
+                <div class="row no-edges hoverable blue darken-4">
+                    <div class="col s12">
+                        <ul class="tabs blue darken-4">
+                            <li class="tab col s4"><a class="white-text" href="#firsttab">Overview</a></li>
+                            <li class="tab col s4"><a class="white-text" href="#secondtab">Android App</a></li>
+                            <li class="tab col s4"><a class="white-text" href="#thirdtab">Smart Mirror</a></li>
+                        </ul>
+                    </div>
+                    <div id="firsttab" class="col s12 white">
+                        <div class="section"></div>
+                        <div class="container fixed-tab">
+                            <img class="responsive-img no-edges" src="images/MERJ_MIRROR_IRL.JPG">
+                            <p>My Senior Design project was quite an ambitious one requiring knowledge in multiple software areas. Luckily I had three team members with different skills to help offset this load. The goal of our project was to create a smart mirror, in which you are able to select which widgets you want displayed on the mirror, as well as in which position. We decided to make an android app for easy selection of what appears on the mirror. A website was also added for those without Android phones.</p>
+                        </div>
+                        <div class="section"></div>
+                    </div>
 
-            <div class="center section">
-                <h4>Additonal Projects</h4>
+                    <div id="secondtab" class="col s12 white">
+                        <div class="section"></div>
+                        <div class="container fixed-tab">
+                            <img class="responsive-img no-edges" src="images/ANDROID_HAND_RESIZED.jpg">
+                            <p>This was the grid selection screen for selecting what goes on your mirror. When you click on a spot on the grid, you are able to change which widget appears there. You are also given a selection within each widget. For example, you </p><br>
+                            <a class="blue-text text-darken-4 links" href="https://github.com/eweiss17/MERJMirror" target="_blank">LINK TO GITHUB</a>
+                        </div>
+                        <div class="section"></div>
+                    </div>
+                    <div id="thirdtab" class="col s12 white">
+                        <div class="section"></div>
+                        <div class="container fixed-tab">
+                            <img class="responsive-img no-edges" src="images/MERJ_MIRROR_FAIR_RESIZED.jpg">
+                            <p>This was the final product. The data being displayed on the mirror is taken from a mySQL database which connects the app and mirror with data. The mirror is built on Node.JS making calls to various API's based on what you selected on the app. </p><br>
+                            <a class="blue-text text-darken-4 links" href="https://github.com/Flarwalker/MERJMirrorPi" target="_blank">LINK TO GITHUB</a>
+                        </div>
+                        <div class="section"></div>
+                    </div>
+                </div>
+                <div class="section"></div>
+            </div>
+        </div>
+        <div id="additional-projects">
+            <div class="section center">
+                <h3>Additonal Projects</h3>
             </div>
             <div class="container">
                 <div class="row">
@@ -213,7 +217,9 @@
                                 <img src="images/MARKUP-PREVIEW.PNG">
                             </div>
                             <div class="card-content">
-                                <span class="card-title black-text">Github Markup Previewer</span>
+                                <hr>
+                                <span class="card-title black-text"><strong>Github Markup Previewer</strong></span>
+                                <hr>
                                 <p>First ReactJS project. Simple, but a good display of how wonderful React is with updating content on the fly.</p>
                             </div>
                             <div class="card-action">
@@ -227,7 +233,9 @@
                                 <img src="images/MESSAGE_BOARD.PNG">
                             </div>
                             <div class="card-content">
-                                <span class="card-title black-text">Forum Board</span>
+                                <hr>
+                                <span class="card-title black-text"><strong>Forum Board</strong></span>
+                                <hr>
                                 <p>A forum board for one of my courses in college. I worked on the entirity of the site mark up. A server to hold data was later added.</p>
                             </div>
                             <div class="card-action">
@@ -243,7 +251,9 @@
                                 <img src="images/TWITCH_STATUS.PNG">
                             </div>
                             <div class="card-content">
-                                <span class="card-title black-text">Twitch Project</span>
+                                <hr>
+                                <span class="card-title black-text"><strong>Twitch Streamer Status</strong></span>
+                                <hr>
                                 <p>A project incorporating the twitch kraken API. One of the earlier attempts at incorporating APIs.</p>
                             </div>
                             <div class="card-action">
@@ -257,7 +267,9 @@
                                 <img src="images/COLOR_CALC.png">
                             </div>
                             <div class="card-content">
-                                <span class="card-title black-text">Calculator</span>
+                                <hr>
+                                <span class="card-title black-text"><strong>Calculator</strong></span>
+                                <hr>
                                 <p>My first project to focus on JavaScript rather than page mark up. This project was done to gain more understanding in JavaScript.</p>
                             </div>
                             <div class="card-action">
@@ -273,7 +285,9 @@
                                 <img src="images/COLOR_WEATHER.png">
                             </div>
                             <div class="card-content">
-                                <span class="card-title black-text">Local Weather</span>
+                                <hr>
+                                <span class="card-title black-text"><strong>Local Weather</strong></span>
+                                <hr>
                                 <p>A small app that tracks your location and tell you the current weather. You are able to toggle Celsius and Fahrenheit.</p>
                             </div>
                             <div class="card-action">
@@ -287,7 +301,9 @@
                                 <img src="images/GAMECUBE_PAGE.PNG">
                             </div>
                             <div class="card-content">
-                                <span class="card-title black-text">GameCube Project</span>
+                                <hr>
+                                <span class="card-title black-text"><strong>GameCube Information</strong></span>
+                                <hr>
                                 <p>A sneak peek to the project I am currently working on! Stay tuned for updates and future information!</p>
                             </div>
                             <div class="card-action">
@@ -297,8 +313,8 @@
                     </div>
                 </div>
             </div>
+            <div class="section"></div>
         </div>
-        <div class="section"></div>
     </main>
 
     <!--=====================FOOTER=========================-->
@@ -329,7 +345,7 @@
         </div>
         <div class="footer-copyright blue darken-3">
             <div class="container">
-                Created with the <a class="light-blue-text text-accent-3" href="http://materializecss.com/" target="_blank">Materialize </a> Framework
+                Created with the <a class="white-text" href="http://materializecss.com/" target="_blank"><strong>Materialize</strong> </a> Framework
             </div>
         </div>
     </footer>

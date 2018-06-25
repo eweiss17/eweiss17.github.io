@@ -24,7 +24,7 @@
           'description': 'Intermediate experience. Have done work in SeLion, an extension of Selenium automated testing.'
         },
       {
-         'headline': 'C++',
+          'headline': 'C++',
           'value': 5,
           'length': 10,
           'description': 'Intermediate experience. Peer mentor for beginner class in college.'
@@ -61,5 +61,12 @@
       $('.carousel.carousel-slider').carousel({
           fullWidth: true
       });
+
+      setTimeout(autoplay, 7500);
+
+      function autoplay() {
+          $('.carousel').carousel('next');
+          setTimeout(autoplay, 7500);
+      }
 
   });
