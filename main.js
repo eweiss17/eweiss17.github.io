@@ -1,4 +1,4 @@
-  var object = [
+  var codingLanguages = [
       {
           'headline': 'HTML',
           'value': 8,
@@ -52,7 +52,7 @@
   $(document).ready(function () {
 
       $('#skillset').skillset({
-          object: object,
+          object: codingLanguages,
           duration: 80
       });
 
