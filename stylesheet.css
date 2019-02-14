@@ -1,9 +1,5 @@
-h1 {
+h1, h3 {
     font-family: "Hammersmith One", cursive;
-}
-
-h3 {
-   font-family: cursive;
 }
 
 hr {
@@ -17,6 +13,10 @@ hr {
 
 #start-page{
     vertical-align: center;
+}
+
+.card-action {
+    font-weight: bold;
 }
 
 .circle {

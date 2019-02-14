@@ -3,7 +3,7 @@
           'headline': 'Web Development',
           'value': 8,
           'length': 10,
-          'description': 'Know the ins and outs of basic web development, including HTML, CSS and Javascript'
+          'description': 'Know the ins and outs of web development, including HTML, CSS and Javascript'
         },
        {
           'headline': 'PHP',
@@ -62,5 +62,9 @@
           $('.carousel').carousel('next');
           setTimeout(autoplay, 7500);
       }
+
+      $('.carousel').tooltip({
+        content: "Click to go to!"
+      });
 
   });
