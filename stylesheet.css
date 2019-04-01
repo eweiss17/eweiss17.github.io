@@ -72,10 +72,3 @@ hr {
    left: 0;
    right: 0;
 }
-
-
-@media only screen and (min-width: 1400px) {
-  header {
-    min-height: 100vh;
-  }
-}
