@@ -10,7 +10,7 @@ $(document).ready(function () {
           setTimeout(autoplay, 7500);
       }
 
-      $('.carousel').tooltip({
-        content: "Click to go to!"
-      });
+//      $('.carousel').tooltip({
+//        content: "Click to go to!"
+//      });
 });
