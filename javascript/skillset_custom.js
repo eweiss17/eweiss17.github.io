@@ -1,4 +1,4 @@
-  var skills = [
+  var object = [
     {
       'headline': 'Web Development',
       'value': 8,
@@ -45,7 +45,7 @@
 
 $(document).ready(function () {
     $('#skillset').skillset({
-      object: skills,
+      object: object,
       duration: 80
     });
 });
