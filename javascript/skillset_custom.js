@@ -1,5 +1,11 @@
   var object = [
     {
+      'headline': 'Java',
+      'value': 9,
+      'length': 10,
+      'description': 'Advanced. Language that I currently work in at my job.'
+    },
+    {
       'headline': 'Web Development',
       'value': 8,
       'length': 10,
@@ -34,12 +40,6 @@
       'value': 6,
       'length': 10,
       'description': 'Intermediate experience. Have worked on several projects utilizing this.'
-    },
-    {
-      'headline': 'Java',
-      'value': 6,
-      'length': 10,
-      'description': 'Intermediate experience. Have done work in SeLion, an extension of Selenium automated testing.'
     },
     {
       'headline': 'C++',
